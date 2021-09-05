@@ -13,6 +13,11 @@ body {
     display: flex;
     flex-direction: row; 
 }
+.row-100 {
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+}
 .row-column {
     width: 80%;
     display: flex;
@@ -66,4 +71,31 @@ header {
 .announce-section p {
     font-size: 0.8rem;
     width: 50%;
+}
+.gallery .img-container {
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    height: 450px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gallery .gallery-image-1 {
+    background-image: url(../img/gallery-1.jpeg);
+}
+.gallery .gallery-image-2 {
+    background-image: url(../img/gallery-2.jpeg);
+}
+.gallery .gallery-image-3 {
+    background-image: url(../img/gallery-3.jpeg);
+}
+.gallery .gallery-image-4 {
+    background-image: url(../img/gallery-4.jpeg);
+}
+.gallery .gallery-image-5 {
+    background-image: url(../img/gallery-5.jpeg);
+}
+.gallery .gallery-image-6 {
+    background-image: url(../img/gallery-6.jpeg);
 }

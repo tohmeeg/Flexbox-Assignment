@@ -1,0 +1,69 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "open sans", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+.row {
+    width: 80%;
+    display: flex;
+    flex-direction: row; 
+}
+.row-column {
+    width: 80%;
+    display: flex;
+    flex-direction: column; 
+}
+.custom-font {
+    font-family: 'playfair display', serif;
+}
+header {
+    width: 100%;
+    height: 120vh;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding: 60px;
+    align-items: flex-end;
+    background-image: url('../img/banner.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-heading {
+    font-size: 6rem;
+    font-style: italic;
+    padding: 0 2rem;
+}
+.banner-text {
+    font-size: 0.9rem;
+    font-weight: normal;
+    background-color: white;
+    color: black;
+    padding: 30px;
+}
+.announce-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #d9b1b3;
+    color: white;
+}
+.announce {
+    font-size: 1.6rem;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.announce span {
+    font-size: 6rem;
+    line-height: 0;
+}
+.announce-section p {
+    font-size: 0.8rem;
+    width: 50%;
+}

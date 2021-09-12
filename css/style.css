@@ -370,57 +370,67 @@ header {
 .button-text {
     margin: 0 0 1.2rem 0;
 }
-
 .subscribe {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
-
 .subscribe .subscribe-image {
     width: 50%;
-    padding: 0 30px;
 }
-
 .subscribe .subscribe-text {
-    justify-content: center;
-    margin: auto 2rem;
+    width: 50%;
+    margin: 150px 100px;
 }
-
 .subscribe-text .pink-line {
     color: #d9b1b3;
-    border: 10px 0 0 0;
-    line-height: 10rem;
+    margin-top: 105px;
+    margin-bottom: 0px;
+    height: 10px;
+    border-style: solid;
+    border-width: 5px;
+    font-size: 1rem;
+    width: 100%;
 }
-
 .subscribe-text .subscribe-heading {
-    font-size: 4rem;
+    font-size: 5rem;
     font-style: italic;
     color: black;
     text-align: center;
+    margin: 2rem 0 3.5rem 0;
 }
-
-.subscribe-form .input-container-box {
+.subscribe-form .input {
+    display: flex;
+    text-align: center;
+}
+.input .input-container-box {
     padding: 0 5px;
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 48%;
 }
-
-.input-container-box .text-input,
-.input-container-box .form-button {
-    padding: 12px 10px;
-}
-
 .input-container-box .text-input {
-    display: flex;
-    flex-direction: row;
-    row-gap: 1;
+    padding: 12px 10px;
+    width: 100%;
 }
-.input-container-box .form-button {
+.input-container-button  {
+    text-align: center;
+}
+.input-container-button .form-button {
     background-color: black;
     color: white;
     border-radius: 20px;
     border: unset;
+    text-align: center;
+    padding: 12px 30px;
 }
 .last-sample {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 2rem 0 3rem 0;
+}
+.contact {
+    text-align: center;
+}
+.twitter {
+    margin: 0 1rem;
 }
